@@ -1,27 +1,3 @@
-let text=document.getElementById('text');
-let text1=document.getElementById('text1');
-let img1=document.getElementById('img1');
-let img2=document.getElementById('img2');
-let img3=document.getElementById('img3');
-// let img4=document.getElementById('img4');
-
-const maxScroll = 300; // Set the maximum scroll value
-
-window.addEventListener('scroll',()=>{
-    // let value=window.scrollY;
-    let value = Math.min(window.scrollY, maxScroll); // Limit scroll value to maxScroll
-    const opacity = 1 - (window.scrollY / maxScroll);
-
-    text.style.opacity=opacity;
-    text1.style.opacity=opacity;
-    img2.style.top=value*2.5+'px';
-    img3.style.marginTop=value*1+'px';
-
-    // Apply the calculated opacity to the fade element
-    img4.style.opacity = opacity;
-    
-})
-
 
 'use strict';
 
@@ -269,7 +245,7 @@ update();
 
 function update() {
 
-    resizeCanvas();
+    resizeCanvas1();
 
     var dt = Math.min( (Date.now() - lastTime) / 1000, 0.016 );
     lastTime = Date.now();
@@ -390,7 +366,7 @@ function splat( x, y, dx, dy, color ) {
 
 }
 
-function resizeCanvas() {
+function resizeCanvas1() {
 
     ( canvas.width !== canvas.clientWidth || canvas.height !== canvas.clientHeight ) && ( canvas.width  = canvas.clientWidth, canvas.height = canvas.clientHeight, initFramebuffers() );
 
