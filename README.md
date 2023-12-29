@@ -1,4 +1,4 @@
-**This is a non-commericial purpose code**
+This is a **Non-Commericial** purpose code
 ## Attribution
 
 This project includes code from [KomaTebe](https://openprocessing.org/user/281256) and [Ali Rehan Haider](https://codepen.io/Irehan), licensed under [CreativeCommons Attribution NonCommercial ShareAlike](https://creativecommons.org/licenses/by-nc-sa/3.0) and [MIT Licensed](https://opensource.org/license/mit/), respectively.
