@@ -41,7 +41,6 @@ body, html {
     height:50px;
       font-size: 2.5em;
       color: rgb(255, 255, 255);
-      /* pointer-events: none; */
       margin-right:auto;
   }
 
