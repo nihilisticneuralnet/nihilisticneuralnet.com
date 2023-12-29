@@ -47,7 +47,7 @@ body, html {
 
   .navigation {
     display: flex;
-    justify-content: flex-end; /* Move navigation items to the right */
+    justify-content: flex-end; 
     align-items: center;
 }
 
@@ -79,7 +79,7 @@ body, html {
   .container {
     position: relative;
     width: 100%;
-    height: 100vh; /* Adjust height as needed */
+    height: 100vh; 
     overflow: hidden; 
   }
   #img2 {
